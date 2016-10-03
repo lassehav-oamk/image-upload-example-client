@@ -18,3 +18,4 @@ Once you deploy the app you will see two buttons on the screen. The "Test server
 
 "Take photo" will activate the cordova camera plugin to take a photo with you device camera. Once the photo operation is completed the address to the photo will be displayed below the button. The "Upload photo" button then shows up, which starts the file transfer proces to your server based on the cordova file transfer plugin. Both the file transfer and the camera plugin are being used through the ngCordova (http://ngcordova.com/) wrapper.
 
+To see the actual end result, please open your cloudinary account via Heroku to see that the image uploads actually end up somewhere. 
